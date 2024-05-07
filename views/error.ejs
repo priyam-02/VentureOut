@@ -1,0 +1,8 @@
+<%- include('./partials/header.ejs') %>
+    <div class = "content">
+        <h3><%= error.status%> Error</h3>
+        <p><%= error.message%></p>
+        <!-- show error image -->
+        <img src = "/images/404_page.png" alt = "404 Error" style="height: 500px; margin: 0 0 60px;" class = "img-fluid mb-100">
+    </div>
+<%- include('./partials/footer.ejs') %> 

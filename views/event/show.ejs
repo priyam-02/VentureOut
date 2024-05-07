@@ -1,0 +1,38 @@
+<%- include('../partials/header.ejs') %>
+
+<div class="event-header" style="background-image: url('<%= event.image %>');">
+    <h1><%= event.title %></h1>
+</div>
+
+<div class="container py-4">
+    <h2>About the Event</h2>
+    <p><%= event.details %></p>
+</div>
+<div class="container py-1">
+    <h3>RSVP</h3>
+      <form action="/events/<%= event._id %>/rsvp" method="POST">
+
+        <p>Going?</p>
+        <button style="background-color: #4CAF50;" type="submit" name="status" value="YES">Yes</button>
+        <button style="background-color: red;" type="submit" name="status" value="NO!1">No</button>
+        <button style="background-color: orange;" type="submit" name="status" value="MAYBE">Maybe</button>
+      </form>
+</div>
+      <div class="container py-5">
+    <h3>Event Details</h3>
+    <ul>
+        <li><strong>Date:</strong> <%= new Date(event.startDateTime).toLocaleDateString() %></li>
+        <li><strong>Time:</strong> <%= new Date(event.startDateTime).toLocaleTimeString() %> - <%= new Date(event.endDateTime).toLocaleTimeString() %></li>
+        <li><strong>Location:</strong> <%= event.location %></li>
+        <li><strong>Host:</strong> <%= event.hostName.firstName + " " + event.hostName.lastName %></li>
+        <li><strong>Number of RSVP:</strong> <%= yesCount %></li>
+    </ul>
+
+    <!-- <form>
+        <button type="submit" formmethod="get" formaction="/events/<%= event._id%>/edit" class="btn btn-primary">Edit Event</button>
+        <button type="submit" formmethod="post" formaction="/events/<%= event._id%>?_method=DELETE" class="btn btn-danger">Delete Event</button>
+    </form> -->
+
+</div>
+
+<%- include('../partials/footer.ejs') %>

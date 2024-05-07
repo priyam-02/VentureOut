@@ -1,0 +1,26 @@
+<%- include('../partials/header.ejs') %>
+<div class="container py-5">
+    <h2 class="text-center mb-4">Upcoming Events</h2>
+
+    <% categories.forEach(function(category) { %>
+        <h3 class="category-title"><%= category %></h3>
+        <div class="row">
+            <% events.forEach(function(event) { %>
+                <% if (event.category === category) { %>
+                    <div class="col-md-4 mb-4">
+                        <div class="card event-card">
+                            <img src="<%= event.image %>" class="card-img-top" alt="<%= event.title %>">
+                            <div class="card-body">
+                                <h5 class="card-title"><%= event.title %></h5>
+                                <p class="card-text"><%= event.details %></p>
+                                <a href="/events/<%= event._id%>" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                <% } %>
+            <% }); %>
+        </div>
+    <% }); %>
+
+</div>
+<%- include('../partials/footer.ejs') %> 

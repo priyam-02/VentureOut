@@ -1,0 +1,34 @@
+  <%- include('../partials/header.ejs') %>
+    <div class="hero-section">
+        <div>
+            <h1>Welcome to Outdoor Adventure Meetup</h1>
+            <p id="discover">Discover and join exciting outdoor adventures.</p>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2>About Us</h2>
+        <p id="about">Outdoor Adventure Meetup is a community for adventure enthusiasts to discover, share, and join thrilling outdoor activities. From hiking to kayaking, find your next adventure here.</p>
+        
+        <h2>Featured Events</h2>
+        <div class="row">
+            <!-- Example of a featured event -->
+            <div class="col-md-4">
+                <div class="card featured-event">
+                    <img src="/images/mountainhiking.jpg" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Mountain Hiking</h5>
+                        <p class="card-text">Join us for an exhilarating hike in the scenic mountains.</p>
+                        <a href="/events/660e21dddac2746d83a155fc" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more featured events as needed -->
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="/events" class="btn btn-lg btn-success">View All Events</a>
+        </div>
+    </div>
+    
+    <%- include('../partials/footer.ejs') %> 

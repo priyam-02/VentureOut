@@ -1,0 +1,62 @@
+<%- include('../partials/header.ejs') %>
+    <div class="container-fluid container py-5">
+        <h2 style="padding-bottom: 10px;"><%= isNew ? "Create Event Form" : "Edit Event Form" %></h2>
+        <form action="<%= isNew ? '/events/create' : `/events/${event._id}?_method=PUT` %>" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="title">Event Title</label>
+                <input type="text" class="form-control" id="title" name="title" required placeholder="Enter Event Title" value="<%= event.title %>">
+            </div>
+            <div class="form-group">
+                <label for="eventDetails">Event Details</label>
+                <textarea class="form-control" id="details" name="details" required placeholder="Enter Event Details"><%= event.details %></textarea>
+            </div>
+            <div class="form-group">
+                <label for="eventName">Event Location</label>
+                <input type="text" class="form-control" id="location" placeholder="Enter Event Location" name="location" required value="<%= event.location %>">
+            </div>
+            <!-- <div class="form-group">
+                <label for="hostName">Host Name</label>
+                <input type="text" class="form-control" id="hostName" placeholder="Enter Host Name" name="hostName" required value="<%= event.hostName %>">
+            </div> -->
+            <div class="form-group">
+                <label for="categoryId">Event Category</label>
+                <select class="form-control" id="categoryId" name="category" required val>
+                    <option value="" <%= !event.categoryId ? 'selected="selected"' : '' %> >--Select a Category--</option>
+                    <option value="Outdoor Adventures" <%= event.categoryId == 1 ? 'selected="selected"' : '' %> >Outdoor Adventures</option>
+                    <option value="City Tours" <%= event.categoryId == 2 ? 'selected="selected"' : '' %> >City Tours</option>
+                    <option value="Sports" <%= event.categoryId == 3 ? 'selected="selected"' : '' %> >Sports</option>
+                    <option value="Workshops" <%= event.categoryId == 4 ? 'selected="selected"' : '' %> >Workshops</option>
+                    <option value="Other" <%= event.categoryId == 5 ? 'selected="selected"' : '' %> >Other</option>
+                </select>
+            </div>
+            <% 
+            // Get current date and time in YYYY-MM-DDThh:mm format
+    const now = new Date().toISOString().substring(0, 16); // Convert to ISO and slice to match format required
+%>
+            <div class="form-group">
+                <label for="startDate">Start Date and Time</label>
+                <input type="datetime-local" class="form-control" id="startDateTime" name="startDateTime" required 
+                value="<%= event.startDateTime ? event.startDateTime.substring(0, 16) : now%>">
+            </div>
+            <div class="form-group">
+                <label for="endDate">End Date and Time</label>
+                <input type="datetime-local" class="form-control" id="endDateTime" name="endDateTime" required value="<%= event.endDateTime ? event.endDateTime.substring(0, 16) : now%>">
+            </div>
+
+            <!-- Event Image (Show existing image if editing) -->
+            <% if (event && event.image) { %>
+                <div class="form-group">
+                    <label>Current Image</label>
+                    <img src="<%= event.image %>" alt="Event Image" style="max-width: 100px; display: block;">
+                </div>
+            <% } %>
+
+            <div class="form-group">
+                <label for="eventImage">Event Image</label>
+                <input style="width: auto;" type="file" class="form-control-file" id="image" name="image" required value="<%= event.image %>">
+            </div>
+            <button type="submit" class="btn btn-success"><%= isNew ? "Create" : "Update" %> Event</button>
+
+        </form>
+    </div>
+    <%- include('../partials/footer.ejs') %>

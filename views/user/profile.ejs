@@ -1,0 +1,72 @@
+<%- include('../partials/header.ejs')%>
+    <!-- <h2>Welcome, <%=user.firstName%></h2><br>
+    <%if(events.length){%>
+        <p>You have created the following stories: </p>
+            <%events.forEach(event => { %>
+                    <a href = "/events/<%=event._id%>"><%=event.title%></a>
+            <%});
+        }else{%>
+                <p>You have not created any stories.</p>
+            <%}%>
+    
+    </div> -->
+    <div class="profile-content">
+    <h2 style="padding: 20px;">Welcome, <%=user.firstName%></h2>
+    <h4 style="padding-left: 360px;">My Events</h4>
+    <div class="table-container">
+        
+        <%if(events.length){%>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% events.forEach(function(event) { %>
+                    <tr>
+                        <td><a href = "/events/<%=event._id%>"><%=event.title%></a></td>
+                        <td>
+                            <form>
+                                <button style="background-color: #4CAF50;" type="submit" formmethod="get" formaction="/events/<%= event._id%>/edit" class="btn btn-primary">Edit</button>
+                                <button type="submit" formmethod="post" formaction="/events/<%= event._id%>?_method=DELETE" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+        <%}else{%>
+            <h5>You have not created any events.</h5>
+        <%}%>
+    </div>
+        <h4 style="padding-left: 360px; padding-top: 50px;">My RSVPs</h4>
+        <div class="table-container">
+            
+            <% if (rsvps && rsvps.length > 0) { %>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Going?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% rsvps.forEach(function(rsvp) { %>
+                        <tr>
+                            <td style="width: 48.5%;"><%= rsvp.event.title %></td>
+                            <td>
+                                <strong><%= rsvp.status %></strong>
+                            </td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+            <%}else{%>
+                <h5>You have not RSVP'd to any events.</h5>
+            <%}%>
+        </div>
+        </div>
+    <%- include('../partials/footer.ejs')%>
+

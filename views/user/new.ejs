@@ -1,0 +1,30 @@
+<%- include('../partials/header.ejs') %>
+    <div class="hero-section4">
+        <div class="content" style="padding-bottom: 3rem;">
+            <h1>Sign Up</h1>
+            <form action="/users" method="POST" class="form">
+                <div class="form-group">
+                    <label style="font-size: 22px; text-shadow: black 4px 4px 8px; background-color: rgba(0, 0, 0, 0);" for="firstName">First Name:</label>
+                    <input style="width: 300px;" type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label style="font-size: 22px; text-shadow: black 4px 4px 8px; background-color: rgba(0, 0, 0, 0);" for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label style="font-size: 22px; text-shadow: black 4px 4px 8px; background-color: rgba(0, 0, 0, 0);" for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label style="font-size: 22px; text-shadow: black 4px 4px 8px; background-color: rgba(0, 0, 0, 0);" for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div style="padding-bottom: 40px;" class="form-group">
+                    <a style="font-size: 16px; color: white; font-weight: bold; text-shadow: black 4px 4px 8px; background-color: rgba(0, 0, 0, 0);" href="/users/login">Already have an account? Login here</a>
+                </div>
+                <button style="background-color: #CC5500; font-size: 18px; color: white; font-weight: bold; width: 150px;" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <%- include('../partials/footer.ejs') %> 

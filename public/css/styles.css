@@ -1,0 +1,295 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Distribute space so that the footer can stick at the bottom */
+    min-height: 100vh; /* Minimum height is full viewport height */
+}
+/* index.html */
+.hero-section {
+    background-image: url('/images/outdoor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1 {
+    text-shadow: black 4px 4px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    font-size: 70px;
+}
+
+.hero-section2 h1 {
+    text-shadow: black 4px 4px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    font-size: 70px;
+}
+
+.content {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+.featured-event {
+    margin-bottom: 20px;
+}
+#discover {
+    color: white;  
+    text-shadow: black 4px 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+#logo{
+    height: 90px;
+    width: 100px;}
+
+#about{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+#contact{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+
+}
+
+.hero-section1 {
+    background-image: url('/images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section2 {
+    background-image: url('/images/about.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* event.html */
+.event-header {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-header h1 {
+    text-shadow: black 4px 4px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+}
+
+
+/* events.html */
+.event-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.category-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.event-card img {
+    height: 220px;
+    object-fit: cover;
+}
+.card-body {
+    height: 180px;
+}
+#logo{
+    height: 90px;
+    width: 100px;
+}
+
+/* Form CSS */
+/* Add to styles.css for global styling */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Login Css */
+/* Specific to login.ejs */
+.login-body .form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+.hero-section3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('/images/login.jpg');
+    background-size: cover;
+    box-shadow: 8px 8px 16px 0px #0d0d0d;
+    height: 50rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section3 h1 {
+    text-shadow: black 4px 4px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    font-size: 70px;
+}
+
+/* SignUp Css */
+.signup-body .form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.hero-section4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('/images/login.jpg');
+    background-size: cover;
+    box-shadow: 8px 8px 16px 0px #0d0d0d;
+    height: 60rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section4 h1 {
+    text-shadow: black 4px 4px 8px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    font-size: 70px;
+}
+
+/* Flash Messages */
+.success {
+    background: rgba(108, 192, 112, 0.7);
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+  
+  }
+  
+  .error {
+    background: rgba(255, 102, 51, 0.7);
+    color: #fff;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+
+  /* Profile */
+.profile-content {
+    height: 50rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+.table-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+table {
+    width: 110%;
+    border-collapse: separate;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 12px rgb(0, 0, 0);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+th {
+    background-color: #a6a2a2;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #f44336;
+    color: white;
+}
