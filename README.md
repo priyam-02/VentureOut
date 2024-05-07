@@ -50,14 +50,14 @@ _Additional Notes_
 
 ## Website Images
 
-1. **Home Page:**
+### 1. **Home Page:**
 <img width="1512" alt="Screenshot 2024-05-07 at 12 29 31 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/d1984d48-1904-4990-902a-d5f33c7870ed">
 
 <img width="1512" alt="Screenshot 2024-05-07 at 12 29 42 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/2a8c3147-93dc-41b9-99c2-950aebc21c50">
 
 
 
-2. **Events & Events Details Page:**
+### 2. **Events & Events Details Page:**
 <img width="1512" alt="Screenshot 2024-05-07 at 12 29 58 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/8ec1c618-6c3c-4607-9d77-8ae296c97dcf">
 
 <img width="1512" alt="Screenshot 2024-05-07 at 12 30 09 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/01aa346f-aa29-4187-8ebf-9b7273d88abb">
