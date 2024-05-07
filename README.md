@@ -53,47 +53,47 @@ _Additional Notes_
 ### 1. **Home Page:**
 <kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 29 31 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/d1984d48-1904-4990-902a-d5f33c7870ed"></kbd>
 
-<img width="1512" alt="Screenshot 2024-05-07 at 12 29 42 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/2a8c3147-93dc-41b9-99c2-950aebc21c50">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 29 42 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/2a8c3147-93dc-41b9-99c2-950aebc21c50"></kbd>
 
 
 
 ### 2. **Events & Events Details Page:**
-<img width="1512" alt="Screenshot 2024-05-07 at 12 29 58 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/8ec1c618-6c3c-4607-9d77-8ae296c97dcf">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 29 58 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/8ec1c618-6c3c-4607-9d77-8ae296c97dcf"></kbd>
 
-<img width="1512" alt="Screenshot 2024-05-07 at 12 30 09 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/01aa346f-aa29-4187-8ebf-9b7273d88abb">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 09 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/01aa346f-aa29-4187-8ebf-9b7273d88abb"></kbd>
 
-<img width="1512" alt="Screenshot 2024-05-07 at 12 30 15 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/dd59c41d-ea32-4734-b54d-fa5dd7b9068b">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 15 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/dd59c41d-ea32-4734-b54d-fa5dd7b9068b"></kbd>
 
 
 
 ### 3. **Login/Sign Up page:**
-<img width="1512" alt="Screenshot 2024-05-07 at 12 30 41 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/c43faa6c-efa5-4c15-9334-5a6b8ca5d678">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 41 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/c43faa6c-efa5-4c15-9334-5a6b8ca5d678"></kbd>
 
-<img width="1512" alt="Screenshot 2024-05-07 at 12 30 51 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/89c8ee3d-bcd1-4aa4-86e2-da4432beabdf">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 51 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/89c8ee3d-bcd1-4aa4-86e2-da4432beabdf"></kbd>
 
 
 
 ### 4. **Create New Event Page:**
-<img width="1512" alt="Screenshot 2024-05-07 at 12 30 23 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/df6d3761-3c66-4382-8b1f-f418a6bce78c">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 23 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/df6d3761-3c66-4382-8b1f-f418a6bce78c"></kbd>
 
 
 
 ### 5. **Profile Page:**
-<img width="1512" alt="Screenshot 2024-05-07 at 12 30 30 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/5b7aa17e-09d0-478e-8ddb-0c2e13d28540">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 30 30 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/5b7aa17e-09d0-478e-8ddb-0c2e13d28540"></kbd>
 
 
 
 ### 6. **About Us Page:**
-<img width="1512" alt="Screenshot 2024-05-07 at 12 31 09 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/0c7027c3-fcc3-4162-b717-486b88369dbb">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 31 09 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/0c7027c3-fcc3-4162-b717-486b88369dbb"></kbd>
 
-<img width="1512" alt="Screenshot 2024-05-07 at 12 31 16 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/ea1d13ee-1e7e-4c43-9670-5dc9c0ab4e6c">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 31 16 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/ea1d13ee-1e7e-4c43-9670-5dc9c0ab4e6c"></kbd>
 
 
 
 ### 7. **Contact Us Page:**
-<img width="1512" alt="Screenshot 2024-05-07 at 12 31 23 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/2345f715-29b0-44bd-a888-4025a0abbe1f">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 31 23 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/2345f715-29b0-44bd-a888-4025a0abbe1f"></kbd>
 
-<img width="1512" alt="Screenshot 2024-05-07 at 12 31 30 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/bb7b378d-00fd-4447-aaec-44e8d71d9533">
+<kbd><img width="1512" alt="Screenshot 2024-05-07 at 12 31 30 PM" src="https://github.com/priyam-02/Outdoor_Adventure_Meetup/assets/108848788/bb7b378d-00fd-4447-aaec-44e8d71d9533"></kbd>
 
 
 
