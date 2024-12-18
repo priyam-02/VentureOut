@@ -1,6 +1,6 @@
-# Outdoor Adventure Meetup
+# Venture Out
 
-Outdoor Adventure Meetup is a vibrant web application designed to bring together enthusiasts of outdoor activities. 
+Venture Out is a vibrant web application designed to bring together enthusiasts of outdoor activities. 
 From seasoned explorers to newcomers, our platform offers a unique space for individuals to discover, share, and participate in outdoor adventures. 
 Whether it’s local hiking, mountain biking, or international expeditions, there’s something for everyone here. 
 
